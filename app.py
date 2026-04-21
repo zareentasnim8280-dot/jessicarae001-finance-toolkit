@@ -1,4 +1,4 @@
-"""
+c"""
 Quantitative Investment Toolkit
 --------------------------------
 A multi-module decision-support application integrating financial theory,
@@ -553,7 +553,7 @@ with tabs[1]:
                     "Equal Weight": w_eq,
                 }).set_index("Ticker")
                 st.dataframe(
-                    wdf.style.format("{:.2%}").background_gradient(cmap="Blues", axis=None),
+                 wdf.style.format("{:.2%}"),   
                     use_container_width=True,
                 )
 
