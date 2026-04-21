@@ -74,7 +74,7 @@ def fetch_prices(tickers, start, end):
             auto_adjust=True,
             progress=False,
             group_by="ticker",
-            threads=True,
+            threads=False,
         )
     except Exception:
         return pd.DataFrame()
