@@ -1,4 +1,4 @@
-c"""
+"""
 Quantitative Investment Toolkit
 --------------------------------
 A multi-module decision-support application integrating financial theory,
